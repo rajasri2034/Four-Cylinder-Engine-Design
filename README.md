@@ -9,7 +9,7 @@ This project focuses on the 3D CAD modelling and assembly of a four-cylinder eng
 
 The project involves designing individual mechanical components and integrating them into an assembly to understand the relationship between reciprocating and rotary motion in an internal combustion engine.
 
-The individual components have been modelled separately and subsequently assembled to create a four-cylinder crankshaft and piston mechanism.
+The individual components were modelled separately and subsequently assembled to create a four-cylinder piston and crankshaft mechanism.
 
 ## 2. Software Used
 
@@ -18,16 +18,16 @@ The individual components have been modelled separately and subsequently assembl
 
 ## 3. Individual Components Designed
 
-The following mechanical components were individually modelled using SolidWorks.
+The following six mechanical components were individually modelled using SolidWorks.
 
-| S.No. | Component | Status |
-|---|---|---|
-| 1 | Piston | Completed |
-| 2 | Piston Rings | Completed |
-| 3 | Piston Pin | Completed |
-| 4 | Crankshaft | Completed |
-| 5 | Connecting Rod | Completed |
-| 6 | Connecting Rod Cap | Completed |
+| S.No. | Component | File Format | Status |
+|---|---|---|---|
+| 1 | Piston | SLDPRT | Completed |
+| 2 | Piston Rings | SLDPRT | Completed |
+| 3 | Piston Pin | SLDPRT | Completed |
+| 4 | Crankshaft | SLDPRT | Completed |
+| 5 | Connecting Rod | SLDPRT | Completed |
+| 6 | Connecting Rod Cap | SLDPRT | Completed |
 
 ## 4. Individual Component Gallery
 
@@ -37,11 +37,15 @@ The piston is a reciprocating component that moves inside the cylinder and trans
 
 ![Piston](parts_Images/Piston.PNG)
 
+**CAD File:** `parts/Piston.SLDPRT`
+
 ### 4.2 Piston Rings
 
 Piston rings provide sealing between the piston and cylinder wall, help control lubricating oil and maintain compression.
 
 ![Piston Rings](parts_Images/Piston_ring.PNG)
+
+**CAD File:** `parts/Piston_ring.SLDPRT`
 
 ### 4.3 Piston Pin
 
@@ -49,11 +53,15 @@ The piston pin connects the piston to the connecting rod and allows relative mov
 
 ![Piston Pin](parts_Images/Piston_pin.PNG)
 
+**CAD File:** `parts/Piston_pin.SLDPRT`
+
 ### 4.4 Crankshaft
 
 The crankshaft converts the reciprocating motion of the pistons into rotary motion through the connecting rods.
 
 ![Crankshaft](parts_Images/Crankshaft.PNG)
+
+**CAD File:** `parts/Crankshaft.SLDPRT`
 
 ### 4.5 Connecting Rod
 
@@ -61,11 +69,15 @@ The connecting rod connects the piston to the crankshaft and transmits forces be
 
 ![Connecting Rod](parts_Images/Connecting_Rod.PNG)
 
+**CAD File:** `parts/Connecting_Rod.SLDPRT`
+
 ### 4.6 Connecting Rod Cap
 
 The connecting rod cap forms the detachable lower portion of the connecting rod's big end and secures it around the crankshaft journal.
 
 ![Connecting Rod Cap](parts_Images/Connecting_rod_Cap.PNG)
+
+**CAD File:** `parts/Connecting_rod_Cap.SLDPRT`
 
 ## 5. Four-Cylinder Engine Assembly
 
@@ -142,13 +154,5 @@ Four-Cylinder-Engine-Design/
 **Rajasri S**
 
 B.E. Mechatronics Engineering
-
-### Areas of Interest
-- Mechanical Design
-- 3D CAD Modelling
-- Robotics and Automation
-- Mechanical Systems
-
----
 
 *This project represents my learning journey in mechanical design, CAD modelling and mechanical assembly using SolidWorks.*
