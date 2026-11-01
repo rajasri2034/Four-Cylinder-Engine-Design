@@ -155,4 +155,6 @@ Four-Cylinder-Engine-Design/
 
 B.E. Mechatronics Engineering
 
+---
+
 *This project represents my learning journey in mechanical design, CAD modelling and mechanical assembly using SolidWorks.*
